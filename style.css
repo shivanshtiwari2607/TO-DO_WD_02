@@ -1,0 +1,70 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(213, 188, 141);
+    color: white;
+    font-size: 20px;
+}
+.container{
+    margin: auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+#time_min_sec{
+    margin: 5rem;
+}
+#time_min_sec *{
+    font-size:4.8rem;
+    color: rgb(10, 3, 3);
+}
+#buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+button{
+    font-size: 1.4rem;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    font-family: cursive;
+    background-color: rgb(33, 30, 30);
+    color: rgb(248, 248, 248);
+    outline: 2.8px solid rgb(212, 212, 212);
+    outline-offset: 0.2rem;
+}
+.stop{
+    color: red;
+    background-color: rgb(255, 0, 0, 0.2);
+    outline: 2px solid rgba(0, 34, 255, 0.2);
+}
+#laps_wrapper{
+    width: 100%;
+    color: black;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-y: auto;
+}
+.lap{
+    font-size: 1.25rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid rgba(0, 0, 0, 0.166);
+    padding: 1rem 0;
+}
+.lap_num{
+    opacity: 0.8;
+}
+.lap_time{
+    font-weight: 700;
+}
